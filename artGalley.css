@@ -1,0 +1,280 @@
+body {
+  background-image: url(images/fondo1.jpg);
+  margin: 0%;
+  background-attachment: fixed;
+}
+#center {
+  text-align: center;
+}
+* {
+  font-family:corbel;
+  src:url(fonts/corbel.ttf);
+}
+p {
+  text-decoration: blink;
+}
+.botoneratransparente {
+  width: 100%;
+  height: 17%;
+  margin-bottom: 2%
+}
+.blackhole {
+  z-index: 100;
+  background-image:url(images/pelos.jpg);
+  width: 100%;
+  height: 7%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.blackhole a {
+  text-decoration: none;
+  font-size: 100%;
+  color: white;
+  margin: 50px;
+  position: relative;
+  top: 30%;
+}
+
+/*---------------------------------------home---------------------------------------------------------*/
+
+.banner {
+  background-image: url(Images/index/principal2.jpg);
+  background-attachment:fixed;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.galeria1 {
+  font-size: 600%;
+  margin: 0px;
+  color: white;
+}
+h1 {
+  text-align: center;
+  font-size: 200%;
+  padding-bottom: 0%;
+}
+.textoDelMes {
+  width: 200px;
+  height: 390px;
+  text-align: right;
+  position: absolute;
+  margin-left: 9%;
+  font-size: 13px;
+  padding-top: 2%;
+}
+.textoDelMes a {
+color: grey;
+text-align: right;
+}
+.imagenDelmes {
+  position: absolute;
+  margin-left: 25%;
+}
+.uno {
+  position: absolute;
+  margin-left: 76.4%;
+}
+.dos {
+  position: absolute;
+  margin-left: 76.4%;
+  margin-top: 9.6%;
+}
+.tres {
+  position: absolute;
+  margin-left: 76.4%;
+  margin-top: 19.25%;
+}
+.separador {
+background-image: url(images/pelos.jpg);
+background-attachment: fixed;
+margin-top: 0%;
+padding-top: 0%;
+}
+.separador p {
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.separador2 {
+z-index: 100;
+background-image: url(images/ pelos.jpg);
+background-attachment: fixed;
+margin-top: 28.8%;
+margin-bottom: 3%
+}
+.wall {
+  margin-left: 25%
+}
+.wall a {
+  color: black;
+}
+hr {
+  max-height: 55%;
+}
+.FINAL {
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  margin-top: 1%;
+}
+.FINAL p {
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+}
+.piedra {
+  background-color: black;
+  margin-top: 4%;
+  color: white;
+}
+.piedra a {
+  color: white;
+  margin-left: 38%;
+}
+
+/*---------------------------------------contacto---------------------------------------------------------*/
+
+.botoneratransparente2 {
+  width: 100%;
+  height: 17%;
+  margin-bottom: 3%;
+}
+#contacto {
+  background-image: url(Images/Contact/pelosCONTACT.jpg);
+  background-attachment: fixed;
+  color: white;
+  padding: 15%;
+}
+.FORMULARIO {
+  text-align: center;
+  margin: 0%;
+  margin-top: 3%
+}
+.FORMULARIO form h2 {
+  padding-top: 5%;
+  margin-top: -13%;
+}
+textarea {
+  margin-bottom: 0.5%;
+}
+.button {
+  background-color: transparent;
+  border-bottom: 7.5px solid transparent;
+}
+
+/*---------------------------------------obras---------------------------------------------------------*/
+
+.obras1 p {
+  text-align: left;
+  margin-left: 10%;
+  margin-bottom: 1%;
+  font-size: 200%;
+}
+
+/*---------------------------------------artistas---------------------------------------------------------*/
+
+.table {
+  margin-left: 20%;
+  width: 900px;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+  width: 300px;
+}
+tr {
+  height: 50px;
+}
+.Primeros3 {
+  position: relative;
+margin-left: 20px;
+margin-top: 20px;
+}
+.Segundos3 {
+  position: relative;
+  margin-top: 650px;
+  margin-left: 20px;
+}
+.Terceros3 {
+  position: relative;
+  margin-top: 1300px;
+  margin-left: 20px;
+}
+.artist1 {
+  background-color: white;
+  width: 400px;
+  color: black;
+  position: absolute;
+}
+.artist2 {
+  background-color: white;
+  width: 400px;
+  color:black;
+  position: absolute;
+  margin-left: 450px;
+}
+.artist3 {
+    background-color: white;
+    width: 400px;
+    color: black;
+    position: absolute;
+    margin-left: 900px;
+  }
+.artist4 {
+    background-color: white;
+    width: 400px;
+    color: black;
+    position: absolute;
+  }
+  .artist5 {
+    background-color: white;
+    width: 400px;
+    color: black;
+    position: absolute;
+    margin-left: 450px;
+  }
+.artist6 {
+    background-color: white;
+    width: 400px;
+    color: black;
+    position: absolute;
+    margin-left: 900px;
+}
+.artist7 {
+  background-color: white;
+  width: 400px;
+  color: black;
+  position: absolute;
+}
+.artist8 {
+  background-color: white;
+  width: 400px;
+  color: black;
+  margin-left: 450px;
+  position: absolute;
+}
+.artist9 {
+  background-color: white;
+  width: 400px;
+  color: black;
+  margin-left: 900px;
+  position: absolute;
+}
+.FINALArt {
+  background-color: black;
+  width: 100%;
+  height: 150px;
+  margin-top: 2000px;
+  position: relative;
+}
+.FINALArt p{
+  color: white;
+  text-align: center;
+  margin-top: 2%;
+}
